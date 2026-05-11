@@ -51,6 +51,12 @@ Results are saved in the `results/` folder:
 - `voltages.png`: Tracks the stability of regulated rails and the main battery bus.
 - `summary_report.md`: Provides a mission overview, final SoC, and any fault logs.
 
+## Mission Operations Documentation
+
+To bridge the gap between simulation and real-world deployment, this project includes formal mission documentation:
+
+- **[Standard Operating Procedure (SOP)](./docs/EPS_SOP.md)**: Covers startup, health checks, data downlink, and anomaly response protocols.
+
 ## Simulation Physics
 
 - **Solar Constant**: 1361 W/m² (AMO)
